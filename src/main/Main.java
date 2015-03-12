@@ -12,7 +12,8 @@ public class Main {
 
         Test t = new Test();
         
-        t.testApple();
+//        t.testApple();
+        t.testPear();
 
     }
 
