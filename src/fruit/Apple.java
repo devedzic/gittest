@@ -4,7 +4,7 @@
  */
 package fruit;
 
-public class Apple {
+public class Apple implements Fruit {
     
     private String color;
     private int size;
@@ -30,6 +30,11 @@ public class Apple {
     }
     public void setSize(int size) {
         this.size = size;
+    }
+
+    @Override
+    public void showType() {
+        System.out.println("Type: " + this.getClass().getName());
     }
 
 }
